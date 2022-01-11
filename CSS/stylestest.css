@@ -21,10 +21,16 @@ li {
 .vertical-box{
     border: 1px solid black;
     width: min-content; /* Miket nem találok, pontosan ilyesmit kerestem :) */
+    /*display: flex;*/
+    /*align-items: center;*/
+    margin: 8px;
+    padding: 3px;
 }
 
 ul{
     text-decoration-style: none;
+    margin: 8px;
+    padding: 3px;
 }
 
 
@@ -39,5 +45,16 @@ ul{
 /* PC-Kártya doboz (Lehet kéne csinálni egy globális .css-t és akkor mindenhol igaz a kártyákra */
 .Card-Box{
     border: 1px solid black;
-    width: min-content;
+    max-width: max-content;
+}
+
+/* Kis ikonos gomb, nem kell neki design (meglátjuk, hogy melyik böngészőkben fut rendesen.. */
+.btnMatch{
+    border: none;
+    background: none;
+    float: right;
+}
+
+.Card-row{
+    width: max-content;
 }

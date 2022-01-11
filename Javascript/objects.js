@@ -6,7 +6,7 @@ const motherboard = {
     Brand = "",     //[Intel , AMD]
     Slots = 0       //
     CPUSlot = ""    //[AM4 , LGA1151 , LGA1200]
-    StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    StorageSlot = 0  //[1-8 / Itt a szám után nem kell vessző azt hiszem]
     Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  Alaplap  ↑  */
@@ -15,7 +15,7 @@ const motherboard = {
 /*  ↓  Processor  ↓  */
 const cpu = {
     Name = "",      
-    Capacity = ,    //Ide írhatjuk a processzor órajelét
+    Capacity = 0,    //Ide írhatjuk a processzor órajelét
     //RamSlot = "", //[DDR3 , DDR4]
     Brand = "",     //[Intel , AMD]
     //Slots = 0     
@@ -29,7 +29,7 @@ const cpu = {
 /*  ↓  RAM  ↓  */
 const ram = {
     Name = "",
-    Capacity = ,    //[4Gb , 8Gb]
+    Capacity = 0,    //[4Gb , 8Gb]
     RamSlot = "",   //[DDR3 , DDR4]
     //Brand = "",   //--Ezt később mert nem fontos--
     //Slots = 0       
@@ -43,7 +43,7 @@ const ram = {
 /*  ↓  Storage  ↓  */
 const storage = {
     Name = "",
-    Capacity = ,       //[500Gb , 1Tb , 2Tb]
+    Capacity = 0,       //[500Gb , 1Tb , 2Tb]
     //RamSlot = "",
     //Brand = "",      //--opcionális--
     //Slots = 0
@@ -57,7 +57,7 @@ const storage = {
 /*  ↓  StorageHDD  ↓  */
 const hdd = {
     Name = "",
-    Capacity = ,        //[500Gb , 1Tb , 2Tb]
+    Capacity = 0,        //[500Gb , 1Tb , 2Tb]
     //RamSlot = "",
     //Brand = "",       //--opcionális--
     //Slots = 0
@@ -71,7 +71,7 @@ const hdd = {
 /*  ↓  StorageSSD  ↓  */
 const ssd = {
     Name = "",          
-    Capacity = ,        //[500Gb , 1Tb , 2Tb]
+    Capacity = 0,        //[500Gb , 1Tb , 2Tb]
     //RamSlot = "",
     //Brand = "",       //--opcionális--
     //Slots = 0
@@ -85,12 +85,12 @@ const ssd = {
 /*  ↓  Power Supply  ↓  */
 const pwrsply = {
     Name = "",
-    Capacity = ,        //[500W , 600W , 700W]
+    Capacity = 0,        //[500W , 600W , 700W]
     //RamSlot = "",
     //Brand = "",
     //Slots = 0
     //CPUSlot = ""
-    //StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
-    Case = "",      //[ATX Full , ATX Mid , ATX Mini]
+    //StorageSlot =     //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    Case = "",          //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  Power Supply  ↑  */

@@ -26,3 +26,18 @@ li {
 ul{
     text-decoration-style: none;
 }
+
+
+
+.Card-Zone{
+    border: 1px solid red;  /*Szín majd nem kell ide, egyelőre jó a teszteléshez, hogy lássuk a dobozt*/
+    width: min-content;
+    margin: 4px;
+    padding: 5px;
+}
+
+/* PC-Kártya doboz (Lehet kéne csinálni egy globális .css-t és akkor mindenhol igaz a kártyákra */
+.Card-Box{
+    border: 1px solid black;
+    width: min-content;
+}

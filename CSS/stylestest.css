@@ -1,1 +1,18 @@
-/* CSS elemek 2 */
+/* ####################### */
+/* ### CSS elemek TEST ### */
+
+/* Komponensek gombjai */
+.kompbtn {
+
+}
+
+/* Komponensek ID , Ezt jobb üresen hagyni */
+#komptn {
+
+}
+
+/* Lista elemek */
+li {
+    font-size: 12px;
+    margin: 2px;
+}

@@ -15,4 +15,14 @@
 li {
     font-size: 12px;
     margin: 2px;
+    list-style-type: none;
+}
+
+.vertical-box{
+    border: 1px solid black;
+    width: min-content; /* Miket nem találok, pontosan ilyesmit kerestem :) */
+}
+
+ul{
+    text-decoration-style: none;
 }

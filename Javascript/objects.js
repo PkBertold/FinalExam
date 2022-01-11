@@ -5,8 +5,8 @@ const motherboard = {
     RamSlot = "",   //[DDR3 , DDR4]
     Brand = "",     //[Intel , AMD]
     Slots = 0       //
-    CPUSlot = ""    //[AM4 , LGA1151 , LGA1200]
-    StorageSlot = 0  //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    CPUSlot =       //[AM4 , LGA1151 , LGA1200]
+    StorageSlot = 0 //[1-8 / Itt a szám után nem kell vessző azt hiszem]
     Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  Alaplap  ↑  */
@@ -15,12 +15,12 @@ const motherboard = {
 /*  ↓  Processor  ↓  */
 const cpu = {
     Name = "",      
-    Capacity = 0,    //Ide írhatjuk a processzor órajelét
+    Capacity = 0,   //Ide írhatjuk a processzor órajelét
     //RamSlot = "", //[DDR3 , DDR4]
     Brand = "",     //[Intel , AMD]
     //Slots = 0     
     CPUSlot = ""    //[AM4 , LGA1151 , LGA1200]
-    //StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    //StorageSlot = //[1-8 / Itt a szám után nem kell vessző azt hiszem]
     Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  Processor  ↑  */
@@ -29,12 +29,12 @@ const cpu = {
 /*  ↓  RAM  ↓  */
 const ram = {
     Name = "",
-    Capacity = 0,    //[4Gb , 8Gb]
+    Capacity = 0,   //[4Gb , 8Gb]
     RamSlot = "",   //[DDR3 , DDR4]
     //Brand = "",   //--Ezt később mert nem fontos--
     //Slots = 0       
     //CPUSlot = ""  //[AM4 , LGA1151 , LGA1200]
-    //StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    //StorageSlot = //[1-8 / Itt a szám után nem kell vessző azt hiszem]
     Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  RAM  ↑  */

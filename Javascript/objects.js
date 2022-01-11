@@ -7,6 +7,7 @@ const motherboard = {
     Slots = 0       //
     CPUSlot = ""    //[AM4 , LGA1151 , LGA1200]
     StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  Alaplap  ↑  */
 
@@ -20,6 +21,7 @@ const cpu = {
     //Slots = 0     
     CPUSlot = ""    //[AM4 , LGA1151 , LGA1200]
     //StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  Processor  ↑  */
 
@@ -33,6 +35,7 @@ const ram = {
     //Slots = 0       
     //CPUSlot = ""  //[AM4 , LGA1151 , LGA1200]
     //StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  RAM  ↑  */
 
@@ -46,6 +49,7 @@ const storage = {
     //Slots = 0
     //CPUSlot = ""
     StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  Storage  ↑  */
 
@@ -59,12 +63,13 @@ const hdd = {
     //Slots = 0
     //CPUSlot = ""
     StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  StorageHDD  ↑  */
 
 
 /*  ↓  StorageSSD  ↓  */
-const hdd = {
+const ssd = {
     Name = "",          
     Capacity = ,        //[500Gb , 1Tb , 2Tb]
     //RamSlot = "",
@@ -72,6 +77,7 @@ const hdd = {
     //Slots = 0
     //CPUSlot = ""
     StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  StorageSSD  ↑  */
 
@@ -85,5 +91,6 @@ const pwrsply = {
     //Slots = 0
     //CPUSlot = ""
     //StorageSlot =   //[1-8 / Itt a szám után nem kell vessző azt hiszem]
+    Case = "",      //[ATX Full , ATX Mid , ATX Mini]
 };
 /*  ↑  Power Supply  ↑  */

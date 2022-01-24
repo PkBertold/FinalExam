@@ -1,0 +1,24 @@
+/* Itt a horizontal és a product jönne előrébb, nem a vertikális */
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .header { grid-area: 1 / 1 / 2 / 6; 
+    background-color: red;
+    }
+    .horizontal { grid-area: 2 / 2 / 3 / 6; 
+    background-color: blue;
+    }
+    .products { grid-area: 3 / 2 / 6 / 6; 
+    background-color: green;
+    }
+    .vertical { grid-area: 2 / 1 / 6 / 2; 
+    background-color: yellow;
+    }
+    .footer { grid-area: 6 / 1 / 7 / 6; 
+    background-color: grey;
+    }

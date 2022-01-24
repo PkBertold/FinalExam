@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridBackup</title>
+</head>
+<body>
+<style>
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 8; }
+        .div2 { grid-area: 2 / 2 / 3 / 8; }
+        .div3 { grid-area: 2 / 1 / 11 / 2; }
+        .div4 { grid-area: 3 / 2 / 11 / 8; }
+        .div5 { grid-area: 11 / 1 / 12 / 8; }
+</style>
+
+<div class="parent">
+    <div class="div1"> register</div>
+    <div class="div2"> horizontal nav</div>
+    <div class="div3">vertical nav </div>
+    <div class="div4"> termékek</div>
+    <div class="div5">footer </div>
+    </div>
+</body>
+</html>

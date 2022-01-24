@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+</head>
+<body>
+<style>
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .logon { grid-area: 1 / 1 / 2 / 8; 
+                background-color: red;
+        }
+        .horizontal { grid-area: 2 / 2 / 3 / 8; 
+                background-color: blue;
+        }
+        .vertical { grid-area: 2 / 1 / 11 / 2; 
+                background-color: green;
+        }
+        .products { grid-area: 3 / 2 / 11 / 8; 
+                background-color: yellow;
+        }
+        .footer { grid-area: 11 / 1 / 12 / 8; 
+                background-color: grey;
+        }
+</style>
+
+
+
+<div class="parent">
+    <div class="logon">
+
+
+<!--  ↓ Login/Register ↓  -->
+<ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Belépés</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Regisztráció</a>
+    </li>
+</ul>
+<!--  ↑ Login/Register ↑  -->
+
+
+<!--  ↓ Logo ↓  -->
+<div>
+    <img src="../Pictures/Logo/TeamLogo.png" alt="">
+</div><br>
+<!--  ↑ Logo ↑  -->
+
+
+    </div>
+    <div class="horizontal">
+
+
+
+1
+
+    </div>
+    <div class="vertical">
+
+
+<!--  ↓ Compatibility ↓  -->
+<input type="checkbox" id="Match" name="Match" value="Match">
+<label for="vehicle1">Kompatibilitás</label><br>
+<!--  ↑ Compatibility ↑  -->
+
+<div class="vertical-box">
+<!--  ## Navigációs menü ##  -->
+<div class="vertical-nav">
+    <ul>
+        <li><a href="szamitogepek.html">Számítógépek</a></li>
+        <li><a href="laptopok.html">Laptopok</a></li>
+        <li><a href="alkatreszek.html">Alkatrészek</a></li>
+    </ul>
+</div><br><!--egy üres sor-->
+
+
+<!--  ## Alaplap kompatibilitás ##  -->
+<div class="vertical-nav">
+    <h6><label for="Alaplapok">CPU</label></h6>
+    <p><label for="Alaplapok">Márka</label></p> <!--Ezt átméretezni valahogyan-->
+    <ul>
+        <li>AMD</li>
+        <li>Intel</li>
+    </ul>
+</div>
+
+
+<!--  ## Processzor foglalat ##  -->
+<div class="vertical-nav">
+    <h6><label for="Alaplapok">CPUSlot</label></h6>
+    <p><label for="Alaplapok">Foglalat</label></p> <!--Ezt átméretezni valahogyan-->
+    <ul>
+        <li>AM4</li>
+        <li>LGA1150</li>
+        <li>LGA1151</li>
+        <li>LGA1200</li>
+        <li>LGA1700</li>
+    </ul>
+</div>
+
+
+<!--  ## Videókártya ##  -->
+<div class="vertical-nav">
+    <h6><label for="Alaplapok">GPU</label></h6>
+    <p><label for="Alaplapok">Videokártya</label></p> <!--Ezt átméretezni valahogyan-->
+    <ul>
+        <li>Kártya 1</li>
+        <li>Kártya 2</li>
+        <li>Kártya 3</li>
+        <li>Kártya 4</li>
+    </ul>
+</div>
+
+
+<!--  ## Gépház##  -->
+<div class="vertical-nav">
+    <h6><label for="Alaplapok">Gépház</label></h6>
+    <p><label for="Alaplapok">Case Type</label></p> <!--Ezt átméretezni valahogyan-->
+    <ul>
+        <li>ATX Full</li>
+        <li>ATX Mid</li>
+        <li>ATX Mini</li>
+    </ul>
+</div>
+</div> <!--Összefogo div-->
+<div class="vertical-box">
+
+
+    </div>
+
+
+
+
+    
+    <div class="products">
+
+
+asd
+
+
+    </div>
+
+
+    
+    <div class="footer">
+
+        <footer class="clearfix">
+            <nav class="xs-col-11 lg-col-9 xl-col-8 xs-mx-auto">
+            <div class="clearfix">
+            
+                
+            <div class="col xs-col-12 sm-col-3">
+            <h2>Categories</h2>
+            <ul class="footer__main-nav">
+            <li><a href="">Számítógépek</a></li>
+            <li><a href="">Laptopok</a></li>
+            <li><a href="">Alkatrészek</a></li>
+            </ul>
+            </div>
+        
+        
+            <div class="col xs-col-12 sm-col-3">
+            <h2>Team: Foxy-Maxy</h2>
+            <ul class="">
+            <li><a href="">Rólunk</a></li>
+            <li><a href="">Placeholder</a></li>
+        
+            </ul>
+            </div>
+            </div>
+            <div class="clearfix">
+            
+            <div class="col xs-col-12">
+            <ul class="">
+            <li><a href="https://www.youtube.com">
+            <svg class="icon shape-search">
+            <use xlink:href="#shape-youtube"></use>
+            </svg></a>
+            </li>
+            </ul>
+            </div>
+            
+            <div class="xs-col-12">
+            <p class="">
+            Külkertechnikum - Szoftverfejlesztő és – tesztelő technikus szakma | Csiki Akemi , Ladányi Bertold , Varga Dávid
+            </p>
+            </div>
+            </div>
+            </nav>
+            
+            </footer>
+
+
+
+    </div>
+</div>
+</body>
+</html>

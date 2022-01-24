@@ -1,0 +1,145 @@
+/*    Itt a vertikális jönne előrébb, nem a horizontális és a product  */
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 6fr 0fr 3fr 1fr; 
+    grid-template-rows: 0fr 0fr 2fr 2fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "header header header header header"
+      "vertical horizontal horizontal horizontal horizontal"
+      "vertical products products products products"
+      "vertical products products products products"
+      "vertical products products products products"
+      "footer footer footer footer footer"; 
+    min-width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  .header { grid-area: header; 
+  background-color: red;
+  
+  height: max-content
+  }
+
+
+/*Placeholder Image*/
+  img{
+    padding: 0px 10px 25px 15px;
+    height: 60px;
+    width: 180px;
+  }
+/*Placeholder Image*/
+
+
+  .vertical { grid-area: vertical; 
+  background-color: blue;
+  
+  width: auto;
+  }
+  
+  
+  .horizontal { grid-area: horizontal; 
+  background-color: green;
+  height: 75px;
+  }
+  
+  
+  .products { grid-area: products; 
+  background-color: yellow;
+  padding: 20px 10px 0px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;     /* ITT 5 DB FRACTION VAN, TEHÁT 5 OSZLOP */
+  min-height: min-content;
+  justify-content: center;
+  }
+  
+  /*
+  .products{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);
+  }
+  */
+
+
+.cardbox{
+  border: 1px solid black;
+  width: 200px;
+  height: max-content;
+  justify-content: center;
+  margin: 7% 0% 7% 25%;
+}
+
+li {
+  font-size: 12px;
+  margin: 2px;
+  list-style-type: none;
+}
+
+
+  .footer { grid-area: footer; 
+    border: 3px solid red;
+  background-color: grey;
+  display: grid;
+  }
+  
+  
+  
+  p {
+    border: 3px solid red;
+    text-align: center;
+  }
+  
+  
+  .horizontal-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  /*Annyi fraction ahány div-column van*/
+    grid-template-rows: 1fr;                      /*Egy sort egy fraction-re osztunk fel*/
+    margin: 10px;
+    padding: 10px;
+  }
+
+  ul{
+    text-decoration-style: none;
+    margin: 8px;
+    padding: 3px;
+    
+}
+
+.btnMatch{
+  border: none;
+  background: none;
+  float: right;
+}
+
+.itempicture{
+  margin: 0px 3px 0px 3px;
+}
+
+
+
+/* DEBUG, KÉSŐBB TÖRÖLNI!! */
+label{
+      background: white;
+  }
+
+
+  .miafasz{
+    border: 3px solid red;
+    column-count: 3;
+    padding-right: 25%;
+    margin: 5% 0% 5% 30%;
+  }
+
+.BUY{
+  border: 3px solid red;
+  margin: 0% 25% 0% 25%;
+}
+
+.row{
+  color: white;
+  height: 40px;
+}

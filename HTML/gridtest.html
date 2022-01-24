@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style>
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 4; 
+        background-color: red;
+        }
+        .div2 { grid-area: 2 / 2 / 3 / 4; 
+        background-color: blue;
+        }
+        .div3 { grid-area: 3 / 2 / 6 / 4; 
+        background-color: green;
+        }
+        .div4 { grid-area: 2 / 1 / 6 / 2; 
+        background-color: yellow;
+        }
+        .div5 { grid-area: 6 / 1 / 7 / 4; 
+        background-color: grey;
+        }
+</style>
+
+
+<div class="parent">
+    <div class="div1">1 </div>
+    <div class="div2">2 </div>
+    <div class="div3">3 </div>
+    <div class="div4">4 </div>
+    <div class="div5">5 </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*    Itt a vertikális jönne előrébb, nem a horizontális és a product  */
 .container {
     display: grid; 
@@ -124,3 +125,131 @@ li {
 label{
       background: white;
   }
+=======
+/*    Itt a vertikális jönne előrébb, nem a horizontális és a product  */
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr; 
+    grid-template-rows: 0fr 0fr 2fr 2fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "header header header header header"
+      "vertical horizontal horizontal horizontal horizontal"
+      "vertical products products products products"
+      "vertical products products products products"
+      "vertical products products products products"
+      "footer footer footer footer footer"; 
+    min-width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .header { grid-area: header; 
+  background-color: red;
+  
+  height: auto;
+  }
+
+
+/*Placeholder Image*/
+  img{
+    padding: 0px 10px 25px 15px;
+    height: 60px;
+    width: 180px;
+  }
+/*Placeholder Image*/
+
+
+  .vertical { grid-area: vertical; 
+  background-color: blue;
+  
+  width: auto;
+  }
+  
+  
+  .horizontal { grid-area: horizontal; 
+  background-color: green;
+  height: 75px;
+  }
+  
+  
+  .products { grid-area: products; 
+  background-color: yellow;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;     /* ITT 4 DB FRACTION VAN, TEHÁT 4 OSZLOP */
+  justify-content: space-between;
+  min-height: min-content;
+  }
+  
+  /*
+  .products{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);
+  }
+  */
+
+
+.cardbox{
+  border: 1px solid black;
+  width: 200px;
+  height: max-content;
+  justify-content: space-between;
+  margin: 5%;
+  margin: 10px;
+}
+
+li {
+  font-size: 12px;
+  margin: 2px;
+  list-style-type: none;
+}
+
+
+  .footer { grid-area: footer; 
+  background-color: grey;
+  
+  }
+  
+  
+  
+  p {
+    text-align: right;
+  }
+  
+  
+  .horizontal-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  /*Annyi fraction ahány div-column van*/
+    grid-template-rows: 1fr;                      /*Egy sort egy fraction-re osztunk fel*/
+    margin: 10px;
+    padding: 10px;
+  }
+
+  ul{
+    text-decoration-style: none;
+    margin: 8px;
+    padding: 3px;
+    
+}
+
+.btnMatch{
+  border: none;
+  background: none;
+  float: right;
+}
+
+.itempicture{
+  text-align: ;
+  margin: 0px 3px 0px 3px;
+}
+
+
+
+/* DEBUG, KÉSŐBB TÖRÖLNI!! */
+label{
+      background: white;
+  }
+>>>>>>> 36940f2cf9d0feb0e484e60da59af2876735d8cf
